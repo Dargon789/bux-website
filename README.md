@@ -1,4 +1,4 @@
-# [BUX](https://getbux.io) (Website)
+# [BUX](https://getbux.io): Website
 Bitcoin UTXO & xPub Management Suite
 
 [![last commit](https://img.shields.io/github/last-commit/BuxOrg/bux-website.svg?style=flat)](https://github.com/BuxOrg/bux-website/commits/master)
