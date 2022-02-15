@@ -13,7 +13,7 @@ window.$docsify = {
   loadNavbar: true,
   loadSidebar: true,
   name: '<b>BUX</b>',
-  namespace: 'bux-1',
+  namespace: 'bux-website',
   relativePath: true,
   repo: 'https://github.com/BuxOrg/bux',
   subMaxLevel: 4,
