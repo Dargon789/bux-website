@@ -1,3 +1,3 @@
 - **About BUX**
-  - [Introduction](/ "Welcome to BUX")
+  - [Introduction](/ "BUX")
   - [Getting Started](getting_started.md "Get started now using BUX")

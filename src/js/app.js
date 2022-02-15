@@ -15,7 +15,7 @@ window.$docsify = {
   name: '<b>BUX</b>',
   namespace: 'bux-1',
   relativePath: true,
-  repo: 'https://github.com/BuxOrg/bux-website',
+  repo: 'https://github.com/BuxOrg/bux',
   subMaxLevel: 4,
   alias: {
     '.*?/CONDUCT': 'https://raw.githubusercontent.com/BuxOrg/bux-website/master/CODE_OF_CONDUCT.md',

@@ -2,10 +2,9 @@
 
 > Bitcoin UTXO & xPub Management Suite
 
-- Forget about Bitcoin and focus on your app!
-- Start a new project in five minutes
+- Forget about Bitcoin and just build
 
-[Learn More](#what-is-bux)
+[Learn More](#bux-tldr)
 [Browse Schemas](getting_started.md)
 
 ![color](#ecfcff)
