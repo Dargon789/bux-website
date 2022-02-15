@@ -1,3 +1,3 @@
 - **About BUX**
-  - [Introduction](/ "BUX")
-  - [Getting Started](getting_started.md "Get started now using BUX")
+  - [Introduction](/ "BUX - Bitcoin UTXO & xPub Management Suite")
+  - [Getting Started](getting_started.md "BUX - Getting Started")

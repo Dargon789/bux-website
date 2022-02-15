@@ -18,8 +18,8 @@ window.$docsify = {
   repo: 'https://github.com/BuxOrg/bux',
   subMaxLevel: 4,
   alias: {
-    '.*?/CONDUCT': 'https://raw.githubusercontent.com/BuxOrg/bux-website/master/CODE_OF_CONDUCT.md',
-    '.*?/CONTRIBUTING': 'https://raw.githubusercontent.com/BuxOrg/bux-website/master/CONTRIBUTING.md'
+    '.*?/CONDUCT': 'https://raw.githubusercontent.com/BuxOrg/bux-website/master/.github/CODE_OF_CONDUCT.md',
+    '.*?/CONTRIBUTING': 'https://raw.githubusercontent.com/BuxOrg/bux-website/master/.github/CONTRIBUTING.md'
   },
   coverpage: {
     '/': 'cover.md',
