@@ -1,5 +1,5 @@
-# [BUX](https://getbux.io): Website
-Bitcoin UTXO & xPub Management Suite
+# [BUX: Website](https://getbux.io)
+> Get started using [BUX](https://getbux.io) today in under five minutes
 
 [![last commit](https://img.shields.io/github/last-commit/BuxOrg/bux-website.svg?style=flat)](https://github.com/BuxOrg/bux-website/commits/master)
 [![version](https://img.shields.io/github/release-pre/BuxOrg/bux-website.svg?style=flat)](https://github.com/BuxOrg/bux-website/releases)
