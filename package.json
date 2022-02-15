@@ -1,0 +1,103 @@
+{
+  "name": "bux-website",
+  "description": "Bitcoin UTXO & xPub Management Suite",
+  "homepage": "https://getbux.io",
+  "version": "0.1.0",
+  "main": "docs/index.html",
+  "bugs": {
+    "url": "https://github.com/BuxOrg/bux-website/issues"
+  },
+  "keywords": [
+    "bux",
+    "bitcoin",
+    "bitcoinsv",
+    "bsv"
+  ],
+  "author": {
+    "name": "BuxOrg",
+    "email": "suggestions@getbux.io",
+    "url": "https://getbux.io"
+  },
+  "contributors": [
+    {
+      "name": "MrZ",
+      "url": "https://github.com/mrz1836/"
+    }
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "16.2.1",
+    "browser-sync": "^2.27.7",
+    "concurrently": "^7.0.0",
+    "conventional-github-releaser": "^3.1.5",
+    "docsify-cli": "^4.4.3",
+    "finepack": "^2.10.11",
+    "git-authors-cli": "^1.0.37",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "lint-staged": "^12.3.4",
+    "npm-check-updates": "^12.3.0",
+    "prettier-standard": "^16.4.1",
+    "sass": "^1.49.7",
+    "standard": "^16.0.4",
+    "standard-markdown": "^7.1.0",
+    "standard-version": "^9.3.2"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "docs",
+    "gulpfile.js",
+    "src"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "dev": "concurrently \"gulp\" \"npm run server:dev\"",
+    "lint": "standard-markdown docs/**/*.md",
+    "postrelease": "npm run release:tags && npm run release:github",
+    "prerelease": "npm run update:check",
+    "pretest": "npm run lint",
+    "release": "standard-version -a",
+    "release:github": "conventional-github-releaser -p angular",
+    "release:tags": "git push --follow-tags origin HEAD:master",
+    "server:dev": "cd docs && browser-sync start --server --files \"index.html, **/*.md, app.min.js, styles.min.css\"",
+    "start": "docsify start docs",
+    "test": "echo 'no tests available' && exit 0",
+    "update": "ncu -u",
+    "update:check": "ncu -- --error-level 2"
+  },
+  "private": true,
+  "license": "Open BSV",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuxOrg/bux-website/"
+  },
+  "lint-staged": {
+    "package.json": [
+      "finepack",
+      "git add"
+    ],
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ],
+    "*.md": [
+      "standard-markdown",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
