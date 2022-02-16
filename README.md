@@ -1,11 +1,10 @@
 # [BUX: Website](https://getbux.io)
-> Get started using [BUX](https://getbux.io) today in five minutes
+> Get started using [BUX](https://getbux.io) in five minutes
 
 [![last commit](https://img.shields.io/github/last-commit/BuxOrg/bux-website.svg?style=flat)](https://github.com/BuxOrg/bux-website/commits/master)
 [![version](https://img.shields.io/github/release-pre/BuxOrg/bux-website.svg?style=flat)](https://github.com/BuxOrg/bux-website/releases)
 [![license](https://img.shields.io/badge/license-Open%20BSV-brightgreen.svg?style=flat)](/LICENSE)
 [![app health](https://img.shields.io/website-up-down-green-red/https/getbux.io.svg?label=status&v=1)](https://getbux.io)
-<br>
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/BuxOrg/bux-website&style=flat&v=3)](https://mergify.io)
 [![Sponsor](https://img.shields.io/badge/sponsor-BuxOrg-181717.svg?logo=github&style=flat&v=1)](https://github.com/sponsors/BuxOrg)
 
@@ -22,7 +21,7 @@
 <br />
 
 ### What is BUX?
-[Read more here](https://getbux.io)
+[Read more about BUX](https://getbux.io)
 
 <br />
 
@@ -187,7 +186,7 @@ make teardown stage="development" feature="some-feature"
 <br/>
 
 ## Documentation
-Visit [our live documentation](https://getbux.io) site.
+Visit [our live website](https://getbux.io).
 
 <details>
 <summary><strong><code>Release Deployment</code></strong></summary>
