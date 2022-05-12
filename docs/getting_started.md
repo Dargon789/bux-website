@@ -1,7 +1,7 @@
 There are two ways to use BUX.
 
-1 - Use Bux Engine in your existing Go project
-2 - Use Bux Server to start with a working instance out of the box
+- 1 Use Bux Engine in your existing Go project
+- 2 Use Bux Server to start with a working instance out of the box
 
 ## Bux Engine
 
