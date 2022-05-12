@@ -18,6 +18,8 @@
 
 > BUX is still considered "ALPHA" and should not be used in production until a major v1.0.0 is released.
 
-## Stay Tuned!
+## Need help?
 
-Incoming awesomeness, stay tuned :)
+Join the #bux channel in the TonicPow slack to connect with us and the Bux community
+
+[Join our Slack](https://join.slack.com/t/tonicpow/shared_invite/zt-191ij0x5t-NMV8gtLeqfrQFmkFCvPHyg)
