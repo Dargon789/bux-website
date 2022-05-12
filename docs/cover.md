@@ -2,11 +2,6 @@
 
 > Bitcoin UTXO & xPub Management Suite
 
-[Learn More](#what-is-it)
-[Get Started](getting_started.md)
-
-![color](#ecfcff)
-
 ## What is it?
 
 BUX Engine is a Web3 go library for native Bitcoin integration using best-practices. It can dramatically improve the speed of your app if you’re currently relying on 3rd party APIs for UTXO information.
@@ -22,3 +17,8 @@ When you use most Bitcoin wallets, you will notice your deposit address changes 
 It is easy to build Bitcoin apps that use a single address instead and bypass all of this, but they will have inherantly weaker privacy and many block explorers and other apps may fail when there are long transaction histories associated with a single address.
 
 In order to build a Bitcoin app that is fast and reliable, it should track which addresses have been used, which unspent outputs are committed and which are available for creating new transactions. This is what BUX does.
+
+[Learn More](#bux-tldr)
+[Get Started](getting_started.md)
+
+![color](#ecfcff)
