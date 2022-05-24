@@ -2,7 +2,7 @@
   "name": "bux-website",
   "description": "Bitcoin UTXO & xPub Management Suite",
   "homepage": "https://getbux.io",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "docs/index.html",
   "bugs": {
     "url": "https://github.com/BuxOrg/bux-website/issues"
@@ -20,12 +20,16 @@
   },
   "contributors": [
     {
-      "name": "Luke Rohenaz",
-      "url": "https://github.com/rohenaz/"
+      "name": "Siggi",
+      "url": "https://github.com/icellan/"
     },
     {
       "name": "MrZ",
       "url": "https://github.com/mrz1836/"
+    },
+    {
+      "name": "Luke Rohenaz",
+      "url": "https://github.com/rohenaz/"
     }
   ],
   "devDependencies": {
