@@ -5,7 +5,7 @@
 [![version](https://img.shields.io/github/release-pre/BuxOrg/bux-website.svg?style=flat)](https://github.com/BuxOrg/bux-website/releases)
 [![license](https://img.shields.io/badge/license-Open%20BSV-brightgreen.svg?style=flat)](/LICENSE)
 [![app health](https://img.shields.io/website-up-down-green-red/https/getbux.io.svg?label=status&v=1)](https://getbux.io)
-[![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/BuxOrg/bux-website&style=flat&v=3)](https://mergify.io)
+[![Mergify Status](https://img.shields.io/endpoint.svg?url=https://api.mergify.com/v1/badges/BuxOrg/bux-website&style=flat&v=3)](https://mergify.io)
 [![Sponsor](https://img.shields.io/badge/sponsor-BuxOrg-181717.svg?logo=github&style=flat&v=1)](https://github.com/sponsors/BuxOrg)
 
 ## Table of Contents
