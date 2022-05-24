@@ -6,7 +6,8 @@ phases:
       nodejs: 14
     commands:
       # Install yarn
-      - yum -y install yarn
+      - apt update
+      - apt install --no-install-recommends yarn
 
       # Install firebase tools
       - yarn global add firebase-tools
